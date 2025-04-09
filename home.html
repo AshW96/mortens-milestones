@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weird and Funny Page</title>
+    <style>
+      body {
+        font-family: Comic Sans MS, sans-serif;
+        background-color: #f0f8ff;
+        text-align: center;
+        padding: 20px;
+      }
+      .dancing-text {
+        animation: dance 1s infinite alternate;
+      }
+      @keyframes dance {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(10deg);
+        }
+      }
+      img {
+        width: 200px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="dancing-text">Welcome to the Weird Zone!</h1>
+    <p>
+      Why did the web developer go broke? Because they used up all their cache!
+    </p>
+    <img
+      src="https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif"
+      alt="Dancing Banana"
+    />
+    <button onclick="alert('You clicked the weird button!')">
+      Click Me for Weirdness
+    </button>
+    <marquee behavior="scroll" direction="left"
+      >This is a scrolling text because why not?</marquee
+    >
+  </body>
+</html>
